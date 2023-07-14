@@ -24,6 +24,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_07_12_055308) do
   end
 
   create_table "events", force: :cascade do |t|
+    t.string "image"
     t.string "title"
     t.string "datetime"
     t.string "location"
